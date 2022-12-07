@@ -1,0 +1,117 @@
+body {
+    background-color: #fff7fb;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Helvetica Neue";
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+h1 {
+    font-size: 350%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 225%;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    text-align: left;
+    padding: 8px;
+    font-size: 175%;
+    color: black;
+}
+
+p.descriptions {
+    text-align: center;
+    color: black;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#projectBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.projectItem {
+    width: 95%;
+    height: auto;
+    padding-top: 5%;
+    border: 0.5rem solid black;
+    border-radius: 1%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+
+a {
+    font-weight: bold;
+    color: white;
+    font-size: 250%;
+    justify-content: center;
+}
+
+a:hover {
+    cursor: pointer;
+    border: 5px solid #a2ffbf;
+    padding: 0;
+}
+
+.btn {
+    color: black;
+    background-color: transparent;
+    width: 30%;
+    font-size: 250%;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: #a2ffbf;
+    color: black;
+    cursor: pointer;
+}
+
+.projectContentsBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectContentsItem {
+    width: 45%;
+    padding: 2%;
+}
+
+.img:hover {
+}
