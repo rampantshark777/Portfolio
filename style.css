@@ -65,7 +65,7 @@ img {
 }
 
 .projectItem {
-    width: 45%;
+    width: 40%;
     height: auto;
     padding-top: 5%;
     border: 0.5rem solid black;
@@ -91,7 +91,7 @@ a:hover {
 .btn {
     color: black;
     background-color: transparent;
-    width: 30%;
+    width: 16rem;
     font-size: 250%;
     border-radius: 5%;
     border: 1px solid black;
