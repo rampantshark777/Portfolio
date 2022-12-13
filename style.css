@@ -130,3 +130,11 @@ a:hover {
     align-items: center;
     margin-top: 0;
 }
+
+.intro {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 2%;
+    border: 0.2rem black solid;
+    border-radius: 1%;
+}
